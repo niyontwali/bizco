@@ -30,3 +30,23 @@ export const books = [
 ];
 
 
+export const users = [
+  {
+    id: 1,
+    fname: "John",
+    lname: "Niyontwali",
+    email: "nijohn0006@gmail.com"
+  },
+  {
+    id: 2,
+    fname: "Maic",
+    lname: "Sebakara",
+    email: "maicseba@gmail.com"
+  },
+  {
+    id: 3,
+    fname: "Simon",
+    lname: "Imanigirimpuhwe",
+    email: "simon@gmail.com"
+  },
+]
