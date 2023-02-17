@@ -1,16 +1,11 @@
 import express from "express";
-import { users } from "../constants/dummy";
+import {usersController} from "../controllers/"
 
 // Inititalize route
 const router = express.Router();
 
 // routes
-router.get("/users", (req, res) => {
-  res.status(200).json({
-    status: "ok",
-    data: users
-  });
-});
+router.get("/", usersController.getUsers);
 
 
 export default router;
